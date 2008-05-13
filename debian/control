@@ -1,5 +1,5 @@
 Source: kexec-tools
-Section: admin
+Section: core
 Priority: optional
 Maintainer: Yauhen Kharuzhy <jekhor@gmail.com>
 Build-Depends: debhelper (>= 4.0.0), dpatch, gnu-efi (>=3.0a-4)[ia64], libz-dev[ia64], po-debconf
