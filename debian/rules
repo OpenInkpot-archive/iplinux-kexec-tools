@@ -50,7 +50,6 @@ tidy: patch configure-stamp
 	env -i $(MAKE) dist-clean
 
 	dh_clean 
-	debconf-updatepo
 
 install: build
 	dh_testdir

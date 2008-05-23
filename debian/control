@@ -2,12 +2,12 @@ Source: kexec-tools
 Section: core
 Priority: optional
 Maintainer: Yauhen Kharuzhy <jekhor@gmail.com>
-Build-Depends: debhelper (>= 4.0.0), dpatch, gnu-efi (>=3.0a-4)[ia64], libz-dev[ia64], po-debconf
+Build-Depends: debhelper (>= 4.0.0), dpatch, gnu-efi (>=3.0a-4)[ia64], libz-dev[ia64]
 Standards-Version: 3.7.3
 
 Package: kexec-tools
 Architecture: i386 amd64 ppc64 powerpc ia64 s390 armel
-Depends: ${shlibs:Depends}, ${misc:Depends}, debconf
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: kexec tool for kexec reboots
  This tool is used to load a kernel in memory and reboot into the kernel
  loaded in memory using the kexec system call.
