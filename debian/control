@@ -3,6 +3,7 @@ Section: core
 Priority: optional
 Maintainer: Yauhen Kharuzhy <jekhor@gmail.com>
 Build-Depends: debhelper (>= 4.0.0), dpatch, gnu-efi (>=3.0a-4)[ia64], libz-dev[ia64]
+XCS-Cross-Host-Build-Depends: debhelper (>= 4.0.0), dpatch
 Standards-Version: 3.7.3
 
 Package: kexec-tools
